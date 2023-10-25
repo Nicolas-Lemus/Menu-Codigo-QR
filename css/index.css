@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    text-align:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../images/fondo-pared-ladrillo-grunge.webp) ;
+  }
+header{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+nav{
+    border-radius: 5px;
+    background: rgba(21, 20, 20, 0.835);
+    margin-top: 4rem;
+    padding: 1rem;
+    max-width: 500px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+li{
+    list-style-type: none;
+    background: rgb(28, 28, 27);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: #fff200;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: -7rem;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.815);
+  }
+.image{
+    margin-left: .5rem;
+  }
+  li{
+    background:#222221;
+    border:none;
+    position:relative;
+    font-size:1.2em;
+    font-weight: 700;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 1rem 0;
+  }
+  li:hover{
+    background:#141414;
+    color: #e6ff01;
+  }
+  li:before,li:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #e6ff01;
+    transition:400ms ease all;
+  }
+  li:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  li:hover:before,li:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
