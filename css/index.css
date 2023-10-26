@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
     height: 100vh;
     text-align:center;
@@ -5,15 +9,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url(../images/fondo-pared-ladrillo-grunge.webp) ;
-    
   }
 header{
-    margin-top: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: .3rem;
 }
 nav{
     border-radius: 5px;
@@ -49,10 +51,7 @@ img{
     border-radius: 50%;
     margin-bottom: -7rem;
     align-items: center;
-    background: rgba(0, 0, 0, 0.815);
-  }
-.image{
-    margin-left: .5rem;
+    background:#222221a6;
   }
   li{
     background:#222221;
@@ -89,4 +88,24 @@ img{
     width:100%;
     transition:800ms ease all;
   }
-  
+  #git,#link,#inst,#web{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .instagram{
+    animation-delay: .1s;
+  }
+  .linkedin{
+    animation-delay: .2s;
+  }
+  .github{
+    animation-delay: .3s;
+  }
+  /* footer */
+  footer p{
+    padding: 0 2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b0c11c;
+  }
